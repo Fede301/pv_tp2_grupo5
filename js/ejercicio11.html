@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11</title>
+</head>
+<body>
+    <script>
+        const kilometros = parseFloat(prompt("Ingrese los kilometros recorridos en su vehiculo:"));
+        const litros = parseFloat(prompt("Ingrese los litros de combustible usados:"));
+        const consumoTotal = litros / kilometros;
+
+        document.write(`Por recorrer ${kilometros}km con ${litros} litros... <br>`);
+        document.write(`Su consumo fue de ${consumoTotal.toFixed(2)} litros por kilometro.`);
+    </script>
+</body>
+</html>
