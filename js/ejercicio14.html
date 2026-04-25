@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let cant;
+        const numeros = [];
+        let num;
+
+        cant = parseInt(prompt("Ingrese la cantidad de numeros que desea agregar al array"));
+
+        for (let i = 0; i <= cant - 1; i++) {
+            num = parseInt(prompt("ingrese numero"));
+            numeros.push(num);
+        }
+
+
+        const duplicar = (arreglo) => {
+            const nuevoarreglo = [];
+
+            for (let i = 0; i < arreglo.length; i++) {
+                nuevoarreglo.push(arreglo[i] * 2)
+                document.write(`${nuevoarreglo[i]} <br> `)
+            }
+        }
+
+        //invocar funcion 
+        duplicar(numeros);
+    </script>
+</body>
+
+</html>
