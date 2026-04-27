@@ -1,0 +1,2 @@
+const integrantes = "Demian Micael Soruco, Federico Omar Farfan,Ramiro Ignacio Gutiérrez Quival, Sivila Lucas Santiago, Juan Manuel Viviano Alancay";
+console.log(`Somos ${integrantes} y estamos aprendiendo javascript.`);
