@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#coloreante {
+    background-color: greenyellow;
+    border: 3px solid black;
+    padding: 20px 50px;
+    font-size: large;
+    font-family: 'Courier New';
+}
+
+#coloreante:active{
+    background-color: rgb(133, 197, 37);
+    border: 3px solid black;
+    padding: 20px 50px;
+    font-size: large;
+    font-family: 'Courier New';
+}
