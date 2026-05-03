@@ -1,8 +1,8 @@
 import{Actualizartxt} from "./funciones23.js"
 
-const texto = document.getElementById('txtEsc');
+const txt = document.getElementById('txtEsc');
 const mostrar = document.getElementById('txtMost');
 
-tesxto.addEventListener("texto", () => {
-    Actualizartxt(texto, mostrar);
+txt.addEventListener("input", () => {
+    Actualizartxt(txt, mostrar);
 });
