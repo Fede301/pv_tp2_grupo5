@@ -6,6 +6,5 @@ export const Actualizartxt = (txt, mostrar) => {
         mostrar.style.backgroundColor = "red";
     } else {
         mostrar.style.backgroundColor = "lightgray";
-        mostrar.style.length;
     }
 };

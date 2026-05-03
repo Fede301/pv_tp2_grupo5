@@ -1,0 +1,27 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #090f4bc9;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+input {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#txtMost {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+}
